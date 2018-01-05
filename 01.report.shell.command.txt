@@ -1,0 +1,68 @@
+1. echo hello world
+hello world
+
+2. passwd
+Changing password for megaman0711.
+(current) UNIX password: 
+
+3. date
+Fri Jan  5 10:56:08 ICT 2018
+
+4. hostname
+MINHDUC-PC
+
+5. arch
+x86_64
+
+6. uname -a
+Linux MINHDUC-PC 4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+
+7. dmesg
+[   85.552475]  __warn+0xcb/0xf0
+[   85.552479]  warn_slowpath_null+0x1d/0x20
+[   85.552513]  cfg80211_roamed+0x8a/0xa0 [cfg80211]
+[   85.552611]  wl_notify_roaming_status+0xc5/0x140 [wl]
+[   85.552692]  wl_event_handler+0x60/0x1e0 [wl]
+[   85.552699]  kthread+0x109/0x140
+[   85.552777]  ? wl_notify_scan_status+0x330/0x330 [wl]
+[   85.552783]  ? kthread_create_on_node+0x60/0x60
+[   85.552790]  ret_from_fork+0x2c/0x40
+[   85.552829] ---[ end trace b1dc9d3765a3ffbf ]---
+
+8. uptime
+ 10:58:12 up 18 min,  1 user,  load average: 0.48, 0.41, 0.42
+
+9. who am i
+nothing
+
+10. whoami
+megaman0711
+
+11. who
+megaman0711 tty7         2018-01-05 10:39 (:0)
+
+12. id
+uid=1000(megaman0711) gid=1000(megaman0711) groups=1000(megaman0711),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+
+13. last
+megaman0 tty7         :0               Wed Dec  6 16:01 - crash  (00:55)
+reboot   system boot  4.10.0-28-generi Wed Dec  6 16:01 - 10:00  (-6:00)
+megaman0 tty7         :0               Tue Dec  5 19:00 - down   (00:12)
+reboot   system boot  4.10.0-28-generi Tue Dec  5 19:00 - 19:13  (00:13)
+megaman0 tty7         :0               Tue Dec  5 12:01 - down   (00:18)
+megaman0 tty7         :0               Tue Dec  5 11:33 - 12:00  (00:27)
+megaman0 tty7         :0               Tue Dec  5 11:16 - 11:32  (00:15)
+reboot   system boot  4.10.0-28-generi Tue Dec  5 11:16 - 12:19  (01:03)
+
+wtmp begins Tue Dec  5 11:16:24 2017
+
+14. finger
+The program 'finger' is currently not installed. You can install it by typing:
+sudo apt install finger
+
+15. w
+ 11:02:47 up 23 min,  1 user,  load average: 0.45, 0.41, 0.42
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+megaman0 tty7     :0               10:39   23:14  50.30s  0.18s /sbin/upstart -
+
+
