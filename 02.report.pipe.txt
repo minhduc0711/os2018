@@ -1,0 +1,19 @@
+ls | grep list
+
+
+cat /etc/passwd | wc -l
+42
+
+
+free | awk '/Mem\:/ { print $2 }' 
+
+
+cat /proc/cpuinfo | grep "cpu core"
+cpu cores	: 2
+cpu cores	: 2
+cpu cores	: 2
+cpu cores	: 2
+
+
+find Pictures -name "*.jpg" | wc -l
+2
