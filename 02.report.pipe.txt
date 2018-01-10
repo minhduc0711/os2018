@@ -6,6 +6,7 @@ cat /etc/passwd | wc -l
 
 
 free | awk '/Mem\:/ { print $2 }' 
+3990388
 
 
 cat /proc/cpuinfo | grep "cpu core"
