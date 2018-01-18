@@ -1,0 +1,7 @@
+cat /proc/sched_debug | awk '/systemd / {print $4}'
+1647
+8
+
+
+cat /proc/1/sched | awk '/nr_switches/ {print $3}'
+1714
